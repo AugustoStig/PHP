@@ -7,5 +7,6 @@ $HelloWorld = $Hello." ".$World." ".$Ponto;
 
 if(isset($HelloWorld)){
     echo $HelloWorld."<br/>\n";};
-    echo "<strong>Existe a variável!!!<strong>";
+
+echo "<strong>Existe a variável!!!<strong>";
 ?>
