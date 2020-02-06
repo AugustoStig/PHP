@@ -1,10 +1,10 @@
 <?php
 
-    $Hello = "Hello";
-    $World = "World";
-    $Ponto = "!!!";
-    $HelloWorld = $Hello." ".$World." ".$Ponto;
+$Hello = "Hello";
+$World = "World";
+$Ponto = "!!!";
+$HelloWorld = $Hello." ".$World." ".$Ponto;
 
-    echo $HelloWorld;
+echo $HelloWorld;
 
 ?>
