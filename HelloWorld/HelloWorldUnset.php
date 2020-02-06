@@ -1,11 +1,11 @@
 <?php
 
-    $Hello = "Hello World!!!";
+$Hello = "Hello World!!!";
 
-    echo $Hello;
+echo $Hello;
 
-    unset ($Hello);
+unset ($Hello);
 
-    echo $Hello;
+echo $Hello;
 
 ?>
