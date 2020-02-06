@@ -1,13 +1,13 @@
 <?php
 
-    $Hello = "Hello";
-    $World = "World";
-    $Ponto = "!!!";
-    $HelloWorld = $Hello." ".$World." ".$Ponto;
+$Hello = "Hello";
+$World = "World";
+$Ponto = "!!!";
+$HelloWorld = $Hello." ".$World." ".$Ponto;
 
-    echo $HelloWorld;
-    exit;
+echo $HelloWorld;
+exit;
 
-    echo "Teste Exit";
+echo "Teste Exit";
 
 ?>
