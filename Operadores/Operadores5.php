@@ -6,6 +6,6 @@ $Ponto = "!!!";
 
 $Hello .= " World";
 
-echo $Hello.$Ponto;
+echo "<strong>".$Hello.$Ponto."</strong>";
 
 ?>
