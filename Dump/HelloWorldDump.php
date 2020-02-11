@@ -8,6 +8,8 @@ echo $Hello."<br>\n";
 
 echo "<strong>Especificação da variável 'Hello' utilizado var_dump:</strong><br>\n";
 
+//Utilização do "var_dump", o qual serve para imprimir o tipo e tamanho de uma variável.
+
 var_dump ($Hello);
 
 ?>
