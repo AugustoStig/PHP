@@ -1,5 +1,7 @@
 <?php
 
+//Código com a intenção de imprimir "Hello World!!!", e após isso, utilizando o "var_dump" mostrar seu tipo e tamanho.
+
 $Hello = "Hello World!!!";
 
 echo $Hello."<br>\n";
