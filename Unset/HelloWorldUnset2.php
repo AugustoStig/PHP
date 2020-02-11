@@ -1,5 +1,8 @@
 <?php
 
+/*Código com a intenção de Imprimir o resultados das variáveis "Hello", "World", "Ponto", algumas passarão por um "Unset" e darão erro ao serem 
+requisitadas para impressão.*/
+
 $Hello = "Hello";
 
 $World = "World";
@@ -19,6 +22,8 @@ echo $World."<br>\n";
 echo "<strong>Impressão da variável 'Ponto' sem qualquer alteração:</strong><br>\n";
 
 echo $Ponto."<br>\n";
+
+//Uso do "Unset" nas variáveis "Hello" e "Ponto", e resultarão em erro quando forem requisitadas.
 
 unset ($Hello, $Ponto);
 
@@ -41,6 +46,8 @@ echo $HelloWorld ."<br/>\n";
 echo "<strong>Impressão da variável 'World', sem qualquer alteração:</strong><br>\n";
 
 echo $World."<br/>\n";
+
+//Uso novamente do "Unset".
 
 unset ($HelloWorld);
 

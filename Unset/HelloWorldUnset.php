@@ -1,8 +1,12 @@
 <?php
 
+//Código com a intenção de imprimir a variável "HelloWorld", primeiramente com informação, e depois com erro, pois terá sido apagada.
+
 $Hello = "Hello World!!!";
 
 echo $Hello."<br>\n";
+
+//Uso do "Unset", o que apagará o conteúdo da variável.
 
 unset ($Hello);
 
