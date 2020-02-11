@@ -1,5 +1,7 @@
 <?php
 
+//Código com a intenção de imprimir o resultado do uso de um operador, o "+=".
+
 $n1 = 2;
 
 $n2 = 3;

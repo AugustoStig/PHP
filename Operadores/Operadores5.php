@@ -1,5 +1,7 @@
 <?php
 
+//Código com a intenção de imprimir um "Hello World!!!", utlizando o ".=" para fazer a alteração na variável "Hello".
+
 $Hello = "Hello";
 
 $Ponto = "!!!";

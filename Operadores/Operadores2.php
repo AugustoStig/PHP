@@ -1,5 +1,7 @@
 <?php
 
+/* Código com a intenção de imprimir alguns números, que estrão guardados em variáveis, e após isso, realizar calculos simples com eles.*/
+
 $A = 10;
 
 $B = $A + 30;

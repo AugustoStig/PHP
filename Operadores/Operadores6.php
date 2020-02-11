@@ -1,5 +1,8 @@
 <?php
 
+/* Código com a intenção de simular uma compra, utilizando valor inicial do caixa, o valor de cada compra, o valor da soma de ambas, e após isso, 
+aplicar um vale presente, e um desconto, até chegar ao valor final da compra.*/
+
 $ValorTotal = 0;
 
 echo "<strong>Valor Total Inicial:</strong><br>\n";
