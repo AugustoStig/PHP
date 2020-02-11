@@ -1,67 +1,35 @@
 <?php
 
-/* Código com a intenção de imprimir alguns números, que estrão guardados em variáveis, e após isso, realizar calculos simples com eles.*/
+// 11/02/2020.
 
-$A = 10;
+//Código com a intenção de imprimir o resultado de 4 calculos, utilizado a multiplicação, a divisão, o resto de uma divisão, e a potenciação.
 
-$B = $A + 30;
+echo "<strong>Resultado da multiplicação de 100 * 23 = </strong><br>\n";
 
-$C = $B - 20;
+echo 100 * 23;
 
-$D = $C * 2;
+echo "<br>\n";
 
-$E = $D / 2;
+echo "<strong>Resultado da divisão de 100 / 23 = </strong><br>\n";
 
-echo "<strong>Variável A = </strong><br>\n";
+echo 100 / 23;
 
-echo $A;
+echo "<br>\n";
 
-echo "<br>";
+echo "<strong>Resultado da sobre da divisão de 100 / 23 = </strong><br>\n";
 
-echo "<strong>Variável B = </strong><br>\n";
+//O "%" é utilizado para achar o resto de uma divisão.
 
-echo $B;
+echo 100 % 23;
 
-echo "<br>";
+echo "<br>\n";
 
-echo "<strong>Variável C = </strong><br>\n";
+echo "<strong>Resultado de 100²³ = </strong><br>\n";
 
-echo $C;
+//O "**" é utilizado para realizar a potenciação.
 
-echo "<br>";
+echo 100 ** 23;
 
-echo "<strong>Variável D = </strong><br\n>";
-
-echo $D;
-
-echo "<br>";
-
-echo "<strong>Variável E = </strong><br>\n";
-
-echo $E;
-
-echo "<br>";
-
-echo "<strong>Soma de A + C = </strong><br>\n";
-
-echo $A + $C;
-
-echo "<br>";
-
-echo "<strong>Multiplicação de B * D = </strong><br>\n";
-
-echo $B * $D;
-
-echo "<br>";
-
-echo "<strong>Divisão de C / B = </strong><br>\n";
-
-echo $C / $B;
-
-echo "<br>";
-
-echo "<strong>Subtração de A - E =<br>\n</strong>";
-
-echo $A - $E;
+echo "<br>\n";
 
 ?>

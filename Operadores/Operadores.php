@@ -1,5 +1,7 @@
 <?php
 
+// 11/02/2020.
+
 //Código com a intenção de imprimir um valor inicial e manipular ele no código, utilizado os 4 operadores básicos de matemática.
 
 $valor = 100.00;

@@ -1,23 +1,15 @@
 <?php
 
-//Código com a intenção de imprimir o resultado do uso de um operador, o "+=".
+// 11/02/2020.
 
-$n1 = 2;
+//Código com a intenção de imprimir um "Hello World!!!", utlizando o ".=" para fazer a alteração na variável "Hello".
 
-$n2 = 3;
+$Hello = "Hello";
 
-echo "<strong>O número 1 é igual á:</strong><br>\n";
+$Ponto = "!!!";
 
-echo $n1."<br>\n";
+$Hello .= " World";
 
-echo "<strong>O número 2 é igual á:</strong><br>\n";
-
-echo $n2."<br>\n";
-
-$n2 += 2;
-
-echo "<strong>O novo número 2 é igual á:</strong><br>\n";
-
-echo $n2;
+echo "<strong>".$Hello.$Ponto."</strong>";
 
 ?>

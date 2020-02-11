@@ -1,33 +1,25 @@
 <?php
 
-//Código com a intenção de imprimir o resultado de 4 calculos, utilizado a multiplicação, a divisão, o resto de uma divisão, e a potenciação.
+// 11/02/2020.
 
-echo "<strong>Resultado da multiplicação de 100 * 23 = </strong><br>\n";
+//Código com a intenção de imprimir o resultado do uso de um operador, o "+=".
 
-echo 100 * 23;
+$n1 = 2;
 
-echo "<br>\n";
+$n2 = 3;
 
-echo "<strong>Resultado da divisão de 100 / 23 = </strong><br>\n";
+echo "<strong>O número 1 é igual á:</strong><br>\n";
 
-echo 100 / 23;
+echo $n1."<br>\n";
 
-echo "<br>\n";
+echo "<strong>O número 2 é igual á:</strong><br>\n";
 
-echo "<strong>Resultado da sobre da divisão de 100 / 23 = </strong><br>\n";
+echo $n2."<br>\n";
 
-//O "%" é utilizado para achar o resto de uma divisão.
+$n2 += 2;
 
-echo 100 % 23;
+echo "<strong>O novo número 2 é igual á:</strong><br>\n";
 
-echo "<br>\n";
-
-echo "<strong>Resultado de 100²³ = </strong><br>\n";
-
-//O "**" é utilizado para realizar a potenciação.
-
-echo 100 ** 23;
-
-echo "<br>\n";
+echo $n2;
 
 ?>
