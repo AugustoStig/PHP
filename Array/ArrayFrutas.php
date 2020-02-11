@@ -1,6 +1,6 @@
 <?php
 
-//Criado por José Augusto Chaves Izabel.
+//Criado por José Augusto Chaves Izabel
 
 //11/02/2020
 
