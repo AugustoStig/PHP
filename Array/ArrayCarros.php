@@ -9,7 +9,7 @@
 $Carros = array("Fiat", "Ford", "Volkswagen", "BMW", "Mercedes-Benz", "Lada", "Dacia", "Renault", "Citroën", "Peugeot", "Holden");
 echo "<strong>Impressão do primeiro número chamado:</strong><br>\n";
 
-//Impressão da marca de número 3, dentro do array.
+//Impressão da marca de número 3 dentro do array.
 
 echo $Carros[3];
 echo "<br>\n";
