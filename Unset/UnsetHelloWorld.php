@@ -1,6 +1,8 @@
 <?php
 
-// 11/02/2020.
+//Criado por José Augusto Chaves Izabel
+
+//11/02/2020
 
 //Código com a intenção de imprimir a variável "HelloWorld", primeiramente com informação, e depois com erro, pois terá sido apagada.
 
@@ -13,7 +15,5 @@ echo $Hello."<br>\n";
 unset ($Hello);
 
 echo "<strong>Erro após a variável 'Hello' ser apagada:</strong><br>\n";
-
 echo $Hello;
-
 ?>
