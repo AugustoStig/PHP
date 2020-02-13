@@ -9,7 +9,9 @@
 $Calculo = 2 + 2 * 3;
 $Calculo2 = (2 + 2) * 3;
 
+echo "<strong>Resultado do cálculo : 2 + 2 * 3 = </strong><br>\n";
 echo $Calculo;
 echo "<br>\n";
+echo "<strong>Resultado do cálculo : ( 2 + 2 ) * 3 = </strong><br>\n";
 echo $Calculo2;
 ?>
