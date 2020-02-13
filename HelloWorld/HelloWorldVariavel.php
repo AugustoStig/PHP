@@ -8,5 +8,6 @@
 
 $Hello = "Hello World!!!";
 
+echo '<strong>Impressão da variável "$Hello" :</strong>'."<br>\n";
 echo $Hello;
 ?>
