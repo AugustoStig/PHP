@@ -8,7 +8,9 @@
 
 $Frutas = array("Maçã", "Banana", "Jaca", "Melão", "Abacate", "Goiaba", "Limão", "Laranja", "Tangerina", "Manga", "Uva");
 
-echo "<strong>\n".$Frutas[1]."</strong>\n";
+echo '<strong>Impressão do primeiro número chamado no array "Frutas":</strong>'."<br>\n";
+echo $Frutas[1];
 echo "<br>\n";
+echo '<strong>Impressão do segundo número chamado no array "Frutas":</strong>'."<br>\n";
 echo $Frutas [3];
 ?>
