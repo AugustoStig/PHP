@@ -8,11 +8,22 @@
 que terá a função de imprimir "Hello World!!!".*/
 
 $Hello = "Hello";
+
+echo '<strong>Impressão da variável $Hello :</strong>'."<br>\n";
 echo $Hello."<br>\n";
+
 $World = "World";
+
+echo '<strong>Impressão da variável $World :</strong>'."<br>\n";
 echo $World."<br>\n";
+
 $Ponto = "!!!";
+
+echo '<strong>Impressão da variável $Ponto :</strong>'."<br>\n";
 echo $Ponto."<br>\n";
-$HelloWorld = "<strong>".$Hello." ".$World.$Ponto."</strong>";
+
+$HelloWorld = $Hello." ".$World.$Ponto;
+
+echo '<strong>Impressão da variável $HelloWorld :</strong>'."<br>\n";
 echo $HelloWorld;
 ?>
