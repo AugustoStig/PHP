@@ -8,7 +8,9 @@
 
 $Valor = 199.90;
 
+echo '<strong>Impressão da variável "$Valor" :</strong>'."<br>\n";
 echo $Valor;
 echo "<br>\n";
+echo '<strong>Impressão do "var_dump" da variável "$Valor" :</strong>'."<br>\n";
 var_dump($Valor);
 ?>

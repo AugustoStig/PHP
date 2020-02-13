@@ -8,7 +8,10 @@
 
 $AnoNascimento = 1947;
 
+echo '<strong>Impressão da variável "$Anonascimento" :</strong>'."<br>\n";
 echo $AnoNascimento;
 echo "<br>\n";
+echo '<strong>Impressão da variável "$AnoNascimento" :</strong>'."<br>\n";
+
 var_dump($AnoNascimento);
 ?>

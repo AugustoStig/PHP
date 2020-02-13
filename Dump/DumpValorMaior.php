@@ -9,9 +9,10 @@
 $Valor1 = 10;
 $Valor2 = 20;
 
-echo "Valor 1 é igual á $Valor1<br>\n";
-echo "Valor 2 é igual á $Valor2<br>\n";
-echo "$Valor1 é maior que $Valor2?<br>\n";
+echo "<strong>Valor 1 é igual á $Valor1.</strong><br>\n";
+echo "<strong>Valor 2 é igual á $Valor2.</strong><br>\n";
+echo "<br>\n";
+echo "<strong>$Valor1 é maior que $Valor2?</strong><br>\n";
 
 var_dump($Valor1>$Valor2);
 ?>
