@@ -8,9 +8,29 @@
 
 $Valor1 = 10;
 
+echo '<strong>Contagem utlizando o "--" depois da variável :</strong>'."<br>\n";
 echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1--."<br>\n";
+echo $Valor1."<br>\n";
+echo "<br>\n";
+echo '<strong>Contagem utlizando o "--" antes da variável :</strong>'."<br>\n";
+echo $Valor1."<br>\n";
 echo --$Valor1."<br>\n";
 echo --$Valor1."<br>\n";
-echo $Valor1--."<br>\n";
-echo $Valor1;
+echo --$Valor1."<br>\n";
+echo --$Valor1."<br>\n";
+echo --$Valor1."<br>\n";
+echo --$Valor1."<br>\n";
+echo --$Valor1."<br>\n";
+echo --$Valor1."<br>\n";
+echo --$Valor1."<br>\n";
+echo --$Valor1."<br>\n";
 ?>

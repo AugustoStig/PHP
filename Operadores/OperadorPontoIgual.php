@@ -10,5 +10,6 @@ $Hello = "Hello";
 $Ponto = "!!!";
 $Hello .= " World";
 
-echo "<strong>".$Hello.$Ponto."</strong>";
+echo '<strong>Impressão das variáveis "$Hello", "$Ponto" : </strong>'."<br>\n";
+echo $Hello.$Ponto;
 ?>
