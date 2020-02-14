@@ -11,5 +11,6 @@ $Valor2 = NULL;
 $Valor3 = 23;
 $Valor4 = 72;
 
+echo '<strong>Impressão da primeira variável valorada dentre as "$Valor1", "$Valor2", "$Valor3", "$Valor4 :"</strong>'."<br>\n";
 echo $Valor1 ?? $Valor2 ?? $Valor3;
 ?>
