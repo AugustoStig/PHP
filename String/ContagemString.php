@@ -13,13 +13,13 @@ echo $Frase;
 echo "<br>\n";
 
 $Palavra  = "da";
-$Teste = strpos($Frase, $Palavra);
+$Contagem = strpos($Frase, $Palavra);
 
 //Primeiro parâmetro = Qual a variável.
 //Segundo parâmetro = A partir de qual posição.
 //Terceiro parâmetro = Até qual posição.
 
-$TextoPart = substr($Frase, $Teste+strlen($Palavra), strlen($Frase));
+$TextoPart = substr($Frase, $Contagem+strlen($Palavra), strlen($Frase));
 
 echo '<strong>Impressão da variável "$TextoPart", após um alteração usando o "TextoPart" :</strong>'."<br>\n";
 echo $TextoPart;
