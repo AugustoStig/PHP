@@ -17,8 +17,6 @@ echo "<br>\n";
 echo "<br>\n";
 echo '<strong>Restante do código não impresso pelo uso do "exit".</strong>';
 
-//Uso do "exit", ponto onde o código deve parar de ser executado.
-
 exit;
 
 echo "Teste Exit";
