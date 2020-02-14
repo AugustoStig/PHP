@@ -7,7 +7,6 @@
 //Código com a intenção de criar um array, o primeiro com uma lista de cores e o segundo com uma lista de nomes.
 
 $Cores = array("Azul", "Verde", "Vermelho", "Amarelo", "Roxo", "Preto", "Cinza", "Branco", "Laranja", "Bege", "Lilás", "Rosa");
-
 $Nomes = array("Maria", "Edna", "José", "Augusto", "Almir", "Ana", "Luisa", "Roberto", "Ricardo", "Luciana", "Natália", "João");
 
 echo '<strong>Impressão do primeiro número chamado no array "Cores":</strong>'."<br>\n";
