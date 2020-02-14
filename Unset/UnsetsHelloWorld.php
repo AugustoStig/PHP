@@ -32,7 +32,7 @@ echo "<br>".$Hello." ".$World." ".$Ponto. "<br/>\n";
 echo "<strong>Impressão da variável 'HelloWorld', sem qualquer alteração:</strong><br>\n";
 echo $HelloWorld ."<br/>\n";
 echo "<strong>Impressão da variável 'World', sem qualquer alteração:</strong><br>\n";
-echo $World."<br/>\n";
+echo $World."<br>\n";
 
 //Uso novamente do "Unset".
 
