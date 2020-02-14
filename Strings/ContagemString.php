@@ -13,7 +13,6 @@ echo $Frase;
 echo "<br>\n";
 
 $Palavra  = "da";
-
 $Teste = strpos($Frase, $Palavra);
 
 //Primeiro parâmetro = Qual a variável.
