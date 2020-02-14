@@ -9,7 +9,12 @@
 
 $Nome = "José Augusto";
 
+echo '<strong>Impressão da variável "$Nome" com o uso de aspas simples : '."'Simples' :</strong>";
+echo "<br>\n";
 echo '$Nome';
+echo "<br>\n";
+echo "<br\n>";
+echo '<strong>Impressão da variável "$Nome" com o uso de aspas duplas : '.'"Duplas" :</strong>';
 echo "<br>\n";
 echo "$Nome";
 ?>
