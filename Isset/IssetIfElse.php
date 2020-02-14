@@ -26,9 +26,9 @@ if(isset($Nome)){
     echo "<br>\n";
     echo "<br>\n";
 }
-    else{
-        echo "<strong>Não passou pelo Isset!!</strong><br>\n";
-        echo '<strong>A variável $Nome não existe!!</strong>';
+else{
+    echo "<strong>Não passou pelo Isset!!</strong><br>\n";
+    echo '<strong>A variável $Nome não existe!!</strong>';
 };
 
 echo '<strong>Tentativa de impressão da variável "$Teste :</strong>"'."<br>\n";

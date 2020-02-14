@@ -13,7 +13,9 @@ $Ponto = "!!!";
 $HelloWorld = $Hello." ".$World.$Ponto;
 
 //Uso do "Isset", utilizado um "if" para que se a variável "HelloWorld" existir, imprima o que tem nela.
+
 echo '<strong>Tentativa de impressão da variável "$HelloWorld" :</strong>'."<br>\n";
+
 if(isset($HelloWorld)){
     echo $HelloWorld."<br/>\n";
     echo "<br>\n";
