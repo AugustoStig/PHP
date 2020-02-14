@@ -15,6 +15,7 @@ echo '<strong>Impressão das variáveis "$Nome", "$Nome2", "$Sobrenome", "$Sobre
 echo "<br>\n";
 echo "$Nome $Nome2 $Sobrenome $Sobrenome2";
 echo "<br>\n";
+
 unset($Nome, $Nome2);
 
 echo '<strong>Tentativa de impressão das variáveis "$Nome", "$Nome2", "$Sobrenome" e "$Sobrenome2 (Erro) : </strong>"'."<br>\n";
